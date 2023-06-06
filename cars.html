@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GoDrive</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- BOOTSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- BOX ICON -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- REMIX ICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <!-- FONT AWESOME ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">GoDrive</a>
+            <button class="navbar-toggler text-white border-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link on" href="cars.html">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item login ms-0 ms-lg-3">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="breadcrumb">
+        <div class="container">
+            <div class="row">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Cars</li>
+                    </ol>
+                    <h3>Cars</h3>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section id="cars">
+        <div class="container">
+            <div class="section-title mb-4 mb-xl-0" data-aos="fade-left" data-aos-duration="1000">
+                <h2>Cars</h2>
+                <p>Temukan pilihan mobil rental yang lengkap dan berkualitas tinggi di GoDrive. Kami menyediakan
+                    berbagai macam kendaraan yang siap memenuhi kebutuhan perjalanan Anda.</p>
+            </div>
+            <div class="filter-wrap mt-4 d-flex flex-lg-row flex-column justify-content-lg-center row-gap-2 column-gap-3 mb-4"
+                data-aos="zoom-in" data-aos-duration="1000">
+                <span class="filter-btn filter-active" data-filter="*">All</span>
+                <span class="filter-btn" data-filter="filter-SUV">SUV</span>
+                <span class="filter-btn" data-filter="filter-MPV">MPV</span>
+                <span class="filter-btn" data-filter="filter-Hatchback">Hatchback</span>
+                <span class="filter-btn" data-filter="filter-Sedan">Sedan</span>
+                <span class="filter-btn" data-filter="filter-PickUp">PickUp</span>
+            </div>
+            <div class="row cars-container" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 cars-item filter-MPV d-flex align-items-stretch mt-4">
+                    <div class="cars-wrap">
+                        <div class="cars-img">
+                            <img src="img/cars/xpander.png" alt="" class="img-fluid">
+                        </div>
+                        <hr>
+                        <div class="cars-info">
+                            <h4>Mitsubishi Xpander</h4>
+                            <p>Transmisi : Automatic</p>
+                            <p>Tahun : 2019</p>
+                            <p>Kursi : 7 Seater</p>
+                            <p>Warna : Hitam</p>
+                            <hr>
+                            <p class="fw-bold">Harga : Rp500,000.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 cars-item filter-SUV d-flex align-items-stretch mt-4">
+                    <div class="cars-wrap">
+                        <div class="cars-img">
+                            <img src="img/cars/creta.png" alt="" class="img-fluid">
+                        </div>
+                        <hr>
+                        <div class="cars-info">
+                            <h4>Hyundai Creta</h4>
+                            <p>Transmisi : Automatic</p>
+                            <p>Tahun : 2022</p>
+                            <p>Kursi : 5 Seater</p>
+                            <p>Warna : Merah</p>
+                            <hr>
+                            <p class="fw-bold">Harga : Rp500,000.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 cars-item filter-SUV d-flex align-items-stretch mt-4">
+                    <div class="cars-wrap">
+                        <div class="cars-img">
+                            <img src="img/cars/hrv.png" alt="" class="img-fluid">
+                        </div>
+                        <hr>
+                        <div class="cars-info">
+                            <h4>Honda SUV</h4>
+                            <p>Transmisi : Automatic</p>
+                            <p>Tahun : 2018</p>
+                            <p>Kursi : 5 Seater</p>
+                            <p>Warna : Putih</p>
+                            <hr>
+                            <p class="fw-bold">Harga : Rp400,000.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-xl-3 col-lg-4 col-md-6 col-12 cars-item filter-Hatchback d-flex align-items-stretch mt-4">
+                    <div class="cars-wrap">
+                        <div class="cars-img">
+                            <img src="img/cars/jazz.png" alt="" class="img-fluid">
+                        </div>
+                        <hr>
+                        <div class="cars-info">
+                            <h4>Honda Jazz</h4>
+                            <p>Transmisi : Automatic</p>
+                            <p>Tahun : 2018</p>
+                            <p>Kursi : 5 Seater</p>
+                            <p>Warna : Merah</p>
+                            <hr>
+                            <p class="fw-bold">Harga : Rp350,000.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 cars-item filter-PickUp d-flex align-items-stretch mt-4">
+                    <div class="cars-wrap">
+                        <div class="cars-img">
+                            <img src="img/cars/l300.png" alt="" class="img-fluid">
+                        </div>
+                        <hr>
+                        <div class="cars-info">
+                            <h4>Mitsubishi L300</h4>
+                            <p>Transmisi : Manual</p>
+                            <p>Tahun : 2018</p>
+                            <p>Kursi : 2 Seater</p>
+                            <p>Warna : Hitam</p>
+                            <hr>
+                            <p class="fw-bold">Harga : Rp200,000.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 cars-item filter-SUV d-flex align-items-stretch mt-4">
+                    <div class="cars-wrap">
+                        <div class="cars-img">
+                            <img src="img/cars/rocky.png" alt="" class="img-fluid">
+                        </div>
+                        <hr>
+                        <div class="cars-info">
+                            <h4>Daihatsu Rocky</h4>
+                            <p>Transmisi : Automatic</p>
+                            <p>Tahun : 2020</p>
+                            <p>Kursi : 5 Seater</p>
+                            <p>Warna : Merah</p>
+                            <hr>
+                            <p class="fw-bold">Harga : Rp200,000.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 cars-item filter-MPV d-flex align-items-stretch mt-4">
+                    <div class="cars-wrap">
+                        <div class="cars-img">
+                            <img src="img/cars/veloz.png" alt="" class="img-fluid">
+                        </div>
+                        <hr>
+                        <div class="cars-info">
+                            <h4>Toyota Veloz</h4>
+                            <p>Transmisi : Automatic</p>
+                            <p>Tahun : 2020</p>
+                            <p>Kursi : 7 Seater</p>
+                            <p>Warna : Silver</p>
+                            <hr>
+                            <p class="fw-bold">Harga : Rp350,000.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 cars-item filter-Sedan d-flex align-items-stretch mt-4">
+                    <div class="cars-wrap">
+                        <div class="cars-img">
+                            <img src="img/cars/vios.png" alt="" class="img-fluid">
+                        </div>
+                        <hr>
+                        <div class="cars-info">
+                            <h4>Toyota Vios</h4>
+                            <p>Transmisi : Automatic</p>
+                            <p>Tahun : 2023</p>
+                            <p>Kursi : 5 Seater</p>
+                            <p>Warna : Putih</p>
+                            <hr>
+                            <p class="fw-bold">Harga : Rp400,000.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3 class="heading-sub">GoDrive</h3>
+                        <p>
+                            Jl.Pagelaran <br>
+                            Bogor, Ciomas 16610<br>
+                            Indonesia <br><br>
+                            <strong>Phone:</strong> +62 5984 6716 635<br>
+                            <strong>Email:</strong> helpdesk@godrive.com<br>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4 class="heading-sub">Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="cars.html">Cars</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3 col-md-12 footer-sosmed">
+                        <h4 class="heading-sub">Social Media</h4>
+                        <p>Ikuti kami melalui sosial media :</p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex justify-content-center py-3">
+            &copy; Copyright <strong><span>GoDrive</span></strong>. All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>

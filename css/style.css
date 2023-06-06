@@ -109,6 +109,7 @@
 }
 
 #hero {
+    padding: 150px 0px;
     background-color: var(--dark-light-blue-color);
     color: white;
 }
@@ -368,7 +369,7 @@ section {
 #contact-item:hover #contact-icon {
     color: #e7f5fb;
     background-color: var(--blue-color);
-    
+
 }
 
 
@@ -387,6 +388,10 @@ section {
 @media screen and (max-width:992px) {
     #hero {
         height: 100vh;
+    }
+
+    #hero h2 {
+        font-size: 1em;
     }
 }
 

@@ -1,3 +1,16 @@
+const links = document.querySelectorAll(".nav-link")
+
+let path = window.location.pathname;
+let filename = path.substring(path.lastIndexOf("/") + 1);
+
+links.forEach(link => {
+    link.classList.remove("on")
+
+    if (filename == link.getAttribute("data-filename")) {
+        link.classList.add("on")
+    }
+});
+
 const buttonFilterGroup = document.querySelectorAll(".filter-btn")
 const carsContainer = document.querySelector(".cars-container")
 buttonFilterGroup.forEach((button) => {
@@ -18,15 +31,4 @@ buttonFilterGroup.forEach((button) => {
             }
         });
     })
-})
-
-
-const identitasInput = document.querySelector("#identitas")
-const noIdentitas = document.querySelector("#no-identitas")
-const lampiranIdentitas = document.querySelector("#lampiran-identitas")
-identitasInput.addEventListener("input", function () {
-    noIdentitas.removeAttribute("disabled")
-    noIdentitas.value = ""
-
-    lampiranIdentitas.removeAttribute("disabled")
-})
+});

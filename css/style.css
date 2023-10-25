@@ -385,6 +385,23 @@ section {
     color: white;
 }
 
+.navbar-toggler i {
+    color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler:hover i {
+    color: var(--dark-blue-color);
+}
+
+.navbar-toggler:hover {
+
+    background-color: white;
+}
+
 @media screen and (max-width:992px) {
     #hero {
         height: 100vh;

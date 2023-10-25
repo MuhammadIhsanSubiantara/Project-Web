@@ -52,12 +52,12 @@
                         </div>
                         <div class="mb-3">
                             <button class="btn-login">Login</button>
-                            <a class="btn-cancel mt-1" href="index.html">Back To Home</a>
+                            <a class="btn-cancel mt-1" href="index.php">Back To Home</a>
                         </div>
                         <div class="mb-3 text-center">
                             <a href="#" class="link"><small>Forgot Password</small></a>
                             <br>
-                            <a href="register.html" class="link"><small>Don't have an account? Register</small></a>
+                            <a href="register.php" class="link"><small>Don't have an account? Register</small></a>
                         </div>
                     </form>
                 </div>
@@ -67,7 +67,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
     <script>AOS.init();</script>
 </body>
 
